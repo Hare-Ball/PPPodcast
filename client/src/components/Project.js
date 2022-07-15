@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 // import Footer from './Footer';
 import Header from './Header';
 import Navbar from './Navbar';
+import Footer from './Footer'
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Artwork from './pages/Artwork';
@@ -32,6 +33,7 @@ function Project() {
           <Header />
           <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
           {renderPage()}
+          <Footer />
         </div>
       );
     }   
