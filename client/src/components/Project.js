@@ -9,7 +9,7 @@ import Artwork from './pages/Artwork';
 import Episodes from './pages/Episodes';
 
 function Project() {
-    const [currentPage, setCurrentPage] = useState('AboutMe');
+    const [currentPage, setCurrentPage] = useState('AboutUs');
 
     const renderPage = () => {
         if (currentPage === 'AboutUs') {
