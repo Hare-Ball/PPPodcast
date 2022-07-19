@@ -1,10 +1,10 @@
 import React from 'react';
-// import './Header.css'
+import './Header.css';
 
 function Header() {
     return (
-        <header className="container col-5 justify-content-center" id="header">
-            <h1>Preaching Poetry</h1>
+        <header className="container col-12 justify-content-center" id="header">
+          
         </header>
  )}       
 export default Header;

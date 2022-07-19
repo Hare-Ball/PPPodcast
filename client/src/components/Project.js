@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-// import Footer from './Footer';
 import Header from './Header';
 import Navbar from './Navbar';
 import Footer from './Footer'
@@ -7,6 +6,7 @@ import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Artwork from './pages/Artwork';
 import Episodes from './pages/Episodes';
+import './Project.css';
 
 function Project() {
     const [currentPage, setCurrentPage] = useState('AboutUs');
@@ -32,7 +32,9 @@ function Project() {
         <div id="Project">
           <Header />
           <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
+          <br></br>
           {renderPage()}
+          <br></br>
           <Footer />
         </div>
       );

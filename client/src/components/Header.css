@@ -1,0 +1,8 @@
+header {
+    background-image: url('../assets/images/Preaching\ Poetry\ Banner.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 225px;
+    display: flex;
+    border-radius: 10px !important;
+}

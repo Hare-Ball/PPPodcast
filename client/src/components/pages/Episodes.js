@@ -1,5 +1,5 @@
 import React from 'react';
-// import './AboutMe.css'
+import './Episodes.css'
 import ytbanner from '../../assets/images/Alt YT Banner.png'
 import ReactPlayer from 'react-player/youtube'
 
