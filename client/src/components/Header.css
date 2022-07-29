@@ -4,5 +4,5 @@ header {
     background-size:cover;
     padding: 225px;
     display: flex;
-    border-radius: 10px !important;
+    border-radius: 10px;
 }
