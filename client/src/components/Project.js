@@ -30,8 +30,9 @@ function Project() {
 
     return (
         <div id="Project">
-          <Header />
           <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
+          <br></br>
+          <Header />
           <br></br>
           {renderPage()}
           <br></br>

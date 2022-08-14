@@ -1,8 +1,11 @@
 header {
-    background-image: url('../assets/images/Preaching\ Poetry\ Banner.png');
+    /* background-image: url('../assets/images/Preaching\ Poetry\ Banner.png');
     background-repeat: no-repeat;
-    background-size:cover;
-    padding: 225px;
+    background-size:cover; */
+    /* padding: 225px; */
     display: flex;
+}
+
+img {
     border-radius: 10px;
 }
