@@ -1,11 +1,20 @@
-header {
-    /* background-image: url('../assets/images/Preaching\ Poetry\ Banner.png');
-    background-repeat: no-repeat;
-    background-size:cover; */
-    /* padding: 225px; */
+#header {
+    display: flex;
+    height:auto;
+    width: auto;
+    display: flex;
+}
+
+.Banner {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
     display: flex;
 }
 
 img {
-    border-radius: 10px;
+    /* object-fit: cover; */
+    display: cover;
+    
 }

@@ -2,10 +2,18 @@
     font-family: 'Cabin Sketch', sans-serif;
     font-size: x-large;
     font-weight: bold;    
-    text-decoration-line: underline; 
+    text-decoration-line: none;
+   
+    align-items: center;
+    max-width: 100%;
+     
 }
 
 .nav-tabs {
     background-color: bisque;
+    
 }
 
+
+/* stretch navbar all the way across like the footer, 
+or figure out how to make the footer match the top navbar */

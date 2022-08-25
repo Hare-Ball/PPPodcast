@@ -7,8 +7,9 @@ import InstagramThumbnail from '../assets/badges/Instagram_thumbnail_logo_2016.s
 
 function Footer() {
     return(
-        <div class= "container col-6 justify-content-center" id="Footer">
+        <div class= "container col-12 flex justify-content-center" id="Footer">
             <br></br>
+            <div class="badgeRow justify-content-center">
             <a href="https://podcasts.apple.com/us/podcast/the-preaching-poetry-podcast/id1521373232">
             <img alt="Apple Podcasts" src={AppleButton} class= "Badges"></img></a>
             <a href="https://open.spotify.com/show/41L9EyVv1NzHsA4g8zPw7h">
@@ -17,6 +18,7 @@ function Footer() {
             <img alt="Instgram" src={InstagramThumbnail} class="Badges"></img></a>
             <a href="https://www.youtube.com/channel/UCZ9isz1ktAInXZxTTc0sJXQ">
             <img alt="Youtube" src={YoutubeButton} class="Badges"></img></a>
+            </div>
 
     </div>        
         )
