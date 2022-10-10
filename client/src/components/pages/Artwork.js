@@ -13,10 +13,13 @@ import ode1 from '../../assets/images/Season 1 Art/Ode 1.11 - Horace 1.png';
 import ode2 from '../../assets/images/Season 1 Art/Ode 1.11 - Horace 2.png';
 import ode3 from '../../assets/images/Season 1 Art/Ode 1.11 - Horace 3.png';
 import ode4 from '../../assets/images/Season 1 Art/Ode 1.11 - Horace 4.png';
-import ozymandias1 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 1.png'
-import ozymandias2 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 2.png'
-import ozymandias3 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 3.png'
-import ozymandias4 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 4.png'
+import ozymandias1 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 1.png';
+import ozymandias2 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 2.png';
+import ozymandias3 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 3.png';
+import ozymandias4 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 4.png';
+import crumbling1 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 1.png'
+import crumbling2 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 2.png'
+import crumbling3 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 3.png'
 
 function Artwork() {
   return (
@@ -43,6 +46,11 @@ function Artwork() {
       <img id= "instagram" alt= "Ozymandias Artwork 2" src={ozymandias2}></img>
       <img id= "instagram" alt= "Ozymandias Artwork 3" src={ozymandias3}></img>
       <img id= "instagram" alt= "Ozymandias Artwork 4" src={ozymandias4}></img>
+      </Row>
+      <Row>
+      <img id= "instagram" alt= "Crumbling Artwork 1" src={crumbling1}></img>
+      <img id= "instagram" alt= "Crumbling Artwork 2" src={crumbling2}></img>
+      <img id= "instagram" alt= "Crumbling Artwork 3" src={crumbling3}></img>
       </Row>
     </Container>
   );
