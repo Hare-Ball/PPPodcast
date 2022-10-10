@@ -17,9 +17,17 @@ import ozymandias1 from '../../assets/images/Season 1 Art/“Ozymandias_ by Perc
 import ozymandias2 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 2.png';
 import ozymandias3 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 3.png';
 import ozymandias4 from '../../assets/images/Season 1 Art/“Ozymandias_ by Percy Bysshe Shelley 4.png';
-import crumbling1 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 1.png'
-import crumbling2 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 2.png'
-import crumbling3 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 3.png'
+import crumbling1 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 1.png';
+import crumbling2 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 2.png';
+import crumbling3 from '../../assets/images/Season 1 Art/“Crumbling is not an instants Act_ by Emily Dickinson 3.png';
+import if1 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 1.png';
+import if2 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 2.png';
+import if3 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 3.png';
+import if4 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 4.png';
+import if5 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 5.png';
+import if6 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 6.png';
+import if7 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 7.png';
+import if8 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 8.png';
 
 function Artwork() {
   return (
@@ -51,6 +59,16 @@ function Artwork() {
       <img id= "instagram" alt= "Crumbling Artwork 1" src={crumbling1}></img>
       <img id= "instagram" alt= "Crumbling Artwork 2" src={crumbling2}></img>
       <img id= "instagram" alt= "Crumbling Artwork 3" src={crumbling3}></img>
+      </Row>
+      <Row>
+      <img id= "instagram" alt= "If Artwork 1" src={if1}></img>
+      <img id= "instagram" alt= "If Artwork 2" src={if2}></img>
+      <img id= "instagram" alt= "If Artwork 3" src={if3}></img>
+      <img id= "instagram" alt= "If Artwork 4" src={if4}></img>
+      <img id= "instagram" alt= "If Artwork 5" src={if5}></img>
+      <img id= "instagram" alt= "If Artwork 6" src={if6}></img>
+      <img id= "instagram" alt= "If Artwork 7" src={if7}></img>
+      <img id= "instagram" alt= "If Artwork 8" src={if8}></img>
       </Row>
     </Container>
   );
