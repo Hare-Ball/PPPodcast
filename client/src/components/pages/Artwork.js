@@ -28,6 +28,20 @@ import if5 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 5.png';
 import if6 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 6.png';
 import if7 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 7.png';
 import if8 from '../../assets/images/Season 1 Art/If_ by Rudyard Kipling 8.png';
+import debt1 from '../../assets/images/Season 1 Art/_The Debt_ by Paul Laurence Dunbar 1.png';
+import debt2 from '../../assets/images/Season 1 Art/_The Debt_ by Paul Laurence Dunbar 2.png';
+import debt3 from '../../assets/images/Season 1 Art/_The Debt_ by Paul Laurence Dunbar 3.png';
+import ironsides1 from '../../assets/images/Season 1 Art/“Old Ironsides_ by Oliver Wendell Holmes Sr. 1.png';
+import ironsides2 from '../../assets/images/Season 1 Art/“Old Ironsides_ by Oliver Wendell Holmes Sr. 2.png';
+import ironsides3 from '../../assets/images/Season 1 Art/“Old Ironsides_ by Oliver Wendell Holmes Sr. 3.png'
+import ironsides4 from '../../assets/images/Season 1 Art/“Old Ironsides_ by Oliver Wendell Holmes Sr. 4.png'
+import ironsides5 from '../../assets/images/Season 1 Art/“Old Ironsides_ by Oliver Wendell Holmes Sr. 5.png'
+import ironsides6 from '../../assets/images/Season 1 Art/“Old Ironsides_ by Oliver Wendell Holmes Sr. 6.png'
+
+
+
+
+
 
 function Artwork() {
   return (
@@ -37,29 +51,34 @@ function Artwork() {
          <img id= "instagram" alt= "Opportunity Artwork 2" src={opportunity2}></img>
          <img id= "instagram" alt= "Opportunity Artwork 3" src={opportunity3}></img>
       </Row>
+      <br></br>
       <Row>
         <img id= "instagram" alt= "Invictus Artwork 1" src={invictus1}></img>
         <img id= "instagram" alt= "Invictus Artwork 2" src={invictus2}></img>
         <img id= "instagram" alt= "Invictus Artwork 3" src={invictus3}></img>
         <img id= "instagram" alt= "Invictus Artwork 4" src={invictus4}></img>
       </Row>
+      <br></br>
       <Row>
         <img id= "instagram" alt= "Ode 1.11 Artwork 1" src={ode1}></img>
         <img id= "instagram" alt= "Ode 1.11 Artwork 2" src={ode2}></img>
         <img id= "instagram" alt= "Ode 1.11 Artwork 3" src={ode3}></img>
         <img id= "instagram" alt= "Ode 1.11 Artwork 4" src={ode4}></img>
       </Row>
+      <br></br>
       <Row>
       <img id= "instagram" alt= "Ozymandias Artwork 1" src={ozymandias1}></img>
       <img id= "instagram" alt= "Ozymandias Artwork 2" src={ozymandias2}></img>
       <img id= "instagram" alt= "Ozymandias Artwork 3" src={ozymandias3}></img>
       <img id= "instagram" alt= "Ozymandias Artwork 4" src={ozymandias4}></img>
       </Row>
+      <br></br>
       <Row>
       <img id= "instagram" alt= "Crumbling Artwork 1" src={crumbling1}></img>
       <img id= "instagram" alt= "Crumbling Artwork 2" src={crumbling2}></img>
       <img id= "instagram" alt= "Crumbling Artwork 3" src={crumbling3}></img>
       </Row>
+      <br></br>
       <Row>
       <img id= "instagram" alt= "If Artwork 1" src={if1}></img>
       <img id= "instagram" alt= "If Artwork 2" src={if2}></img>
@@ -70,6 +89,22 @@ function Artwork() {
       <img id= "instagram" alt= "If Artwork 7" src={if7}></img>
       <img id= "instagram" alt= "If Artwork 8" src={if8}></img>
       </Row>
+      <br></br>
+      <Row>
+      <img id= "instagram" alt= "Debt Artwork 1" src={debt1}></img> 
+      <img id= "instagram" alt= "Debt Artwork 2" src={debt2}></img>
+      <img id= "instagram" alt= "Debt Artwork 3" src={debt3}></img>
+      </Row>
+      <br></br>
+      <Row>
+      <img id= "instagram" alt= "Ironsides Artwork 1" src={ironsides1}></img>
+      <img id= "instagram" alt= "Ironsides Artwork 2" src={ironsides2}></img> 
+      <img id= "instagram" alt= "Ironsides Artwork 3" src={ironsides3}></img> 
+      <img id= "instagram" alt= "Ironsides Artwork 4" src={ironsides4}></img> 
+      <img id= "instagram" alt= "Ironsides Artwork 5" src={ironsides5}></img> 
+      <img id= "instagram" alt= "Ironsides Artwork 6" src={ironsides6}></img>  
+      </Row>
+      <br></br>
     </Container>
   );
 }
